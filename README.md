@@ -21,9 +21,9 @@ To set up the chat interface, follow these steps:
 
 Once the application is running, you can start chatting by typing your message into the chat input box. If you wish to clear the chat, simply type 'clear' and press enter.
 
-To see the chat UI in action, watch the demo video:
+To see the chat UI in action, watch the demo:
 
-![GPT-N Chat UI Demo](gpt_n_chat_ui_demo.mp4)
+![GPT-N Chat UI Demo](./gpt_n_chat_ui_demo.gif)
 
 ## Contributing
 
