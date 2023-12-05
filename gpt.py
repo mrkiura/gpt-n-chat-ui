@@ -1,12 +1,20 @@
-from openai import OpenAI
+import openai
 import streamlit as st
 
 st.title("GPT-N CHAT UI")
 
-client = OpenAI()
+client = openai.OpenAI()
 
-if "openai_model" not in st.session_state:
-    st.session_state["openai_model"] = "gpt-3.5-turbo"
+model_list = {model.id for model in openai.models.list() if "gpt" in model.id and "instruct" not in model.id}
+
+model_option = st.selectbox(
+    "Choose OpenAI model",
+    model_list,
+    index=2,
+    placeholder="Select AI model...",
+)
+
+st.session_state["openai_model"] = model_option
 
 if "messages" not in st.session_state:
     st.session_state.messages = [
