@@ -3,10 +3,11 @@
 Implements a chat interface for querying OpenAI models. It allows users to interact with the AI in a conversational manner.
 
 ## Features
-
+- Ability to choose AI model
 - Chat with OpenAI models in a user-friendly interface.
 - Session-based conversation history.
 - Ability to clear the chat history.
+
 
 ## Installation
 
