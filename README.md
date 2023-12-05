@@ -23,7 +23,7 @@ Once the application is running, you can start chatting by typing your message i
 
 To see the chat UI in action, watch the demo:
 
-![GPT-N Chat UI Demo](./gpt_n_chat_ui_demo.gif)
+[![GPT-N Chat UI Demo](./gpt_n_chat_ui_demo.gif)](https://drive.google.com/file/d/1nAy_vFP2WDChhU_tNWwYxtGteXJX_ZB0/view)
 
 ## Contributing
 
