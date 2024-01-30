@@ -16,7 +16,9 @@ To set up the chat interface, follow these steps:
 1. Clone the repository to your local machine.
 2. Add your openai api key to your env variables as follows: `export OPENAI_API_KEY="your openai api key"`
 3. Install the required dependencies using `pip install -r requirements.txt`.
-4. Run the Streamlit application with `streamlit run gpt.py`.
+4. Install redis incase you don't have it using `brew install redis`
+5. Start redis using `brew services start redis`
+6. Run the Streamlit application with `streamlit run gpt.py`.
 
 ## Usage
 
